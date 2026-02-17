@@ -1,13 +1,21 @@
-.wrapper {
-    display: flex;
+body {
     min-height: 100vh;
 }
 
+.wrapper {
+    display: flex;
+    min-height: 100vh;
+    flex-basis: 600px;
+}
 
 .sidebar {
-    flex-grow: 0;
+    flex-grow: 1;
     flex-shrink: 0;
     flex-basis: 250px;
+}
+
+.main-content {
+    flex-grow: 3;
 }
 
 .logo-company {
@@ -23,19 +31,17 @@
     list-style: none;
 }
 
-
-
 .container-header {
-    flex-grow: 1;
     border: 2px dashed blue;
+    display: flex;
 }
 
 .container-main {
-    flex-grow: 1;
     border: 2px dashed orange;
+    display: flex;
 }
 
 .container-footer {
-    flex-grow: 1;
     border: 2px dashed orange;
+    display: flex;
 }
