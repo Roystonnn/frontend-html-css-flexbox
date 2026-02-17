@@ -1,0 +1,121 @@
+.navbar-one {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-basis: 100%;
+}
+
+.navbar-three {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-basis: 100%;
+}
+
+.navbar-four {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-basis: 100%;
+}
+
+.navbar-five {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-basis: 100%;
+}
+
+
+.logo-one {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    flex-grow: 1;
+    gap: 10px;
+}
+
+.logo-two {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    flex-grow: 1;
+    gap: 10px;
+}
+
+.logo-three {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    flex-grow: 1;
+    gap: 10px;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+}
+
+.ul-one {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-grow: 1;
+}
+
+.ul-two {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    flex-grow: 1;
+    gap: 10px;
+}
+
+.ul-three {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    flex-grow: 1;
+    gap: 10px;
+}
+
+.ul-four {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    flex-grow: 30;
+}
+
+.ul-five {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.ul-button-one {
+    display: flex;
+    justify-content: flex-end;
+    flex-grow: 1;
+    gap: 10px;
+}
+
+.ul-button-two {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-grow: 1;
+    gap: 10px;
+}
+
+li {
+    display: flex;
+    flex-direction: row;
+}
+
