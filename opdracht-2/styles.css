@@ -24,12 +24,19 @@ body {
     flex-direction: row;
     gap: 10px;
     justify-content: flex-start;
+    padding-bottom: 40px;
+}
+
+li {
+    display: flex;
+    padding-left: 30px;
 }
 
 .nav-list {
     display: flex;
     flex-direction: column;
     list-style: none;
+    row-gap: 20px;
 }
 
 .container-header {
@@ -45,4 +52,17 @@ body {
 .container-footer {
     border: 2px dashed orange;
     display: flex;
+}
+
+.nav-buttons {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    justify-content: flex-end;
+    border: 3px dashed orange;
+    height: 630px;
+}
+
+.sign-button, .login-button, {
+
 }
