@@ -16,6 +16,7 @@ body {
 
 .main-content {
     flex-grow: 4;
+    overflow-y: auto;
 }
 
 .logo-company {
