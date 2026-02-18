@@ -4,14 +4,17 @@ body {
 
 .wrapper {
     display: flex;
-    min-height: 100vh;
-    flex-basis: 600px;
+    height: 100vh;
+    overflow: hidden;
 }
 
 .sidebar {
     flex-grow: 1;
     flex-shrink: 0;
     flex-basis: 250px;
+    border: 3px dashed blue;
+    height: 100vh;
+    overflow-y: auto;
 }
 
 .main-content {
@@ -24,19 +27,27 @@ body {
     flex-direction: row;
     gap: 10px;
     justify-content: flex-start;
-    padding-bottom: 40px;
+    padding: 10px 0;
+    align-items: flex-start;
 }
 
 li {
     display: flex;
-    padding-left: 30px;
+}
+
+.nav-list a {
+    width: 100%;
+    cursor: pointer;
 }
 
 .nav-list {
     display: flex;
     flex-direction: column;
     list-style: none;
-    row-gap: 20px;
+    row-gap: 10px;
+    height: 400px;
+    padding-top: 10px;
+    border: 3px dashed pink;
 }
 
 .container-header {
@@ -54,15 +65,43 @@ li {
     display: flex;
 }
 
-.nav-buttons {
-    display: flex;
-    flex-direction: column;
-    row-gap: 10px;
-    justify-content: flex-end;
-    border: 3px dashed orange;
-    height: 630px;
+.button-primary, .button-secondary {
+    width: 100%;
 }
 
-.sign-button, .login-button, {
+.wrapper-nav {
+    display: flex;
+}
 
+.nav-list img {
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-list {
+    display: flex;
+    height: 100vh;
+    text-align: justify;
+}
+
+.icon-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 10px;
+    text-align: justify;
+}
+
+.icon-list:hover {
+    background-color: #e3e3e3;
+    cursor: pointer;
+}
+
+.li-button-primary, .li-button-secondary {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
 }
