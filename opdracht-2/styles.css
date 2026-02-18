@@ -12,7 +12,6 @@ body {
     flex-grow: 1;
     flex-shrink: 0;
     flex-basis: 350px;
-    border: 3px dashed blue;
     height: 100vh;
     overflow-y: auto;
 }
@@ -46,7 +45,6 @@ li {
     list-style: none;
     row-gap: 10px;
     padding-top: 10px;
-    border: 3px dashed pink;
     text-align: justify;
 }
 
@@ -85,7 +83,6 @@ li {
     justify-content: flex-end;
     height: 460px;
     row-gap: 10px;
-    border: 3px dashed orange;
 }
 
 header {
@@ -138,7 +135,6 @@ footer {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    height: 50vh;
 }
 
 .article-text {
